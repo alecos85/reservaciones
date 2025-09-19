@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservaciones</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conectamos el CSS -->
+</head>
+<body>
+    <h2>Reservaciones</h2>
+
+    <!-- Contenedor principal -->
+    <div class="main-container">
+        <!-- Formulario de ingreso -->
+        <form id="formulario">
+            <h2>Nueva Reservación</h2>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="apellido" placeholder="Apellido">
+            <input type="text" name="telefono" placeholder="Teléfono">
+            <input type="text" name="habitacion" placeholder="Habitación">
+            <input type="date" name="fecha_entrada">
+            <input type="date" name="fecha_salida">
+            <input type="number" name="precio" placeholder="Precio">
+            <button type="submit">Guardar</button>
+        </form>
+    
+        <!-- Contenedor de la tabla -->
+        <div class="table-container">
+            <table id="tabla-contactos">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Teléfono</th>
+                        <th>Habitación</th>
+                        <th>Entrada</th>
+                        <th>Salida</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Inserción de datos tabla -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Conectamos el JS -->
+</body>
+</html>

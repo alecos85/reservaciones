@@ -4,7 +4,7 @@
 
 // URL de la API donde se harán las peticiones.
 // Cambia el puerto si tu backend usa otro.
-const API_URL = "https://cucarachon.ddns.net:4011/api/reservaciones";
+const API_URL = "https://periko.bounceme.net/api/reservaciones";
 
 
 // ============================
@@ -171,4 +171,5 @@ async function eliminarReservacionUI(id) {
 document.getElementById("formulario").addEventListener("submit", agregarContacto);
 
 // Cargamos las reservaciones al cargar la página
+
 cargarReservaciones();
